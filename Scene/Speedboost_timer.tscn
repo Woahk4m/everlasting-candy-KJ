@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://ffkxoihglsx5"]
+
+[node name="SpeedboostTimer" type="Timer"]
