@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1j3lw82wecr5"]
+
+[ext_resource type="Script" path="res://Script/speedboost_pickup.gd" id="1_68vjf"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kxjnt"]
+
+[node name="SpeedboostPickup" type="Node2D"]
+script = ExtResource("1_68vjf")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+autostart = true
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(3, -1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+visibility_layer = 2
+position = Vector2(10, -9)
+rotation = 0.0802851
+scale = Vector2(1, 1)
+skew = 0.0191985
+shape = SubResource("CircleShape2D_kxjnt")
+one_way_collision_margin = 48.0
+debug_color = Color(0.741176, 0.129412, 0.219608, 0.419608)
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

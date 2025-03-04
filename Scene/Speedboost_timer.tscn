@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://ffkxoihglsx5"]
 
 [node name="SpeedboostTimer" type="Timer"]
+wait_time = 30.0
+one_shot = true
