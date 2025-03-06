@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://ffkxoihglsx5"]
+[gd_scene format=3 uid="uid://bio0wkdegf5us"]
 
 [node name="SpeedboostTimer" type="Timer"]
 wait_time = 30.0

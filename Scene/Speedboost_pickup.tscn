@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://d1j3lw82wecr5"]
+[gd_scene load_steps=3 format=3 uid="uid://dkffr52deutvn"]
 
 [ext_resource type="Script" path="res://Script/speedboost_pickup.gd" id="1_68vjf"]
 
@@ -18,7 +18,6 @@ position = Vector2(3, -1)
 visibility_layer = 2
 position = Vector2(10, -9)
 rotation = 0.0802851
-scale = Vector2(1, 1)
 skew = 0.0191985
 shape = SubResource("CircleShape2D_kxjnt")
 one_way_collision_margin = 48.0

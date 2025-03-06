@@ -14,7 +14,7 @@ config/name="Everlasting Candy"
 config/description="by Harmony Honey
 and Endless Foundation"
 run/main_scene="res://Scene/WorldSelector.tscn"
-config/features=PackedStringArray("4.4")
+config/features=PackedStringArray("4.3")
 config/icon="res://Image/picon.svg"
 
 [autoload]
