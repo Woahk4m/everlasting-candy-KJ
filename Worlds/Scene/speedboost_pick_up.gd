@@ -13,8 +13,8 @@ func _on_area_2d_body_entered(body: Node2D):
 		get_tree().create_timer(5.0).timeout.connect(
 			func():
 				# sets the player's speed back to default
-				body.spd = 60.0
-		)
+			body.spd = 60.0
+			)
 
 		# deletes the pickup from the scene
 		queue_free()
